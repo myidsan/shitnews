@@ -1,5 +1,5 @@
 # shitnews
 
-Shitnews gets the headline from major news, both left and right, and analyze the mosst frequently used 
-wors from both sides.
+Shitnews gets the headline from major news, both left and right, and analyze the most frequently used 
+words from both sides.
 

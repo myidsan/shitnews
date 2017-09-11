@@ -23,4 +23,4 @@ def getHeadline():
 #print (headline)
 
 
-getHeadline()
+getHeadline();

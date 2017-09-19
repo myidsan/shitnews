@@ -9,9 +9,9 @@ soup = BeautifulSoup(html, "html.parser")
 
 # Latest News
 def getLatestNews():
-    for section in soup.find_all('section', id='latest'):
-        for list_ in section.find_all('li'):
-            for a in list_.find_all('a'):
+    for section in soup.find_all('article', class_='article'):
+        for div in section.find_all('div', class_='info'):
+            for a in div.find_all('a'):
                 print (a.text)
 
 getLatestNews()
